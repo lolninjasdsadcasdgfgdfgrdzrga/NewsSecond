@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"><head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form class="form form-signup" th:action="@{/change}" method="post">
+
+
+        <input type="text" name="ID"th:value="${past}" placeholder="Id" readonly><br><br>
+    <input type="text" name="username"th:value="${name}"   placeholder="UserName" required="">
+    <input type="text" name="password"th:value="${password}" placeholder="Password" required="">
+    <input type="checkbox" name="user" placeholder="User" required="">
+    <label for="user">User</label>
+
+    <input type="checkbox" name="admin" placeholder="Admin" required="">
+    <label for="admin">Admin</label>
+
+    <button type="submit">Submit</button>
+</tr>
+</form>>
+</body>
+</html>

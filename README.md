@@ -1,2 +1,0 @@
-# NewsSecond
-Site with news
